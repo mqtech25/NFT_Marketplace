@@ -1,5 +1,3 @@
-import Nav from "../partials/nav";
-
 const Home = () => {
   return (
     <>
