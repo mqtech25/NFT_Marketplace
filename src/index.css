@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+/* 
 :root {
   --primary-dark-color: #242424;
   --primary-color: #dfc500;
@@ -27,4 +27,4 @@ body {
 }
 .dark-shadow {
   box-shadow: var(--dark-shadow);
-}
+} */
