@@ -12,10 +12,15 @@ const Nav = () => {
             <img src={logo} alt="" />
           </div>
           <div className="w-1/2 sm:w-1/3 lg:w-2/3 nav  hidden sm:block">
-            <div className="navbar flex items-center justify-around h-full">
+            <div className="navbar flex items-center justify-center gap-8 xl:justify-around h-full">
               <div className="nav__icon">
                 <i className="text-primary-white ">
                   {<icon.FaBars size={28} />}
+                </i>
+              </div>
+              <div className="nav__icon">
+                <i className="text-primary-white xl:hidden">
+                  {<icon.FaSearch size={28} />}
                 </i>
               </div>
               <div className="nav__input hidden xl:block">
@@ -83,6 +88,9 @@ const Nav = () => {
             <ul className="flex list-none items-center justify-between w-full">
               <li className="sm:hidden">
                 <icon.FaBars size={28} />
+              </li>
+              <li className="sm:hidden">
+                <icon.FaSearch size={28} />
               </li>
               <li>
                 <button className="bg-primary-linearColor hover:bg-primary-hoverLinearColor transition ease-in-out delay-150  hover:-translate-y-1  text-secondary-color rounded-md px-2 2xl:px-3  py-2  font-[600] hidden xl:block text-sm 2xl:text-md ">
